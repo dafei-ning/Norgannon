@@ -6,7 +6,12 @@ public class BlackJackGameAutomator {
 
     private Deck deck;
     private BlackJackHand[] hands;
-    
+    private static final int HIT_UNTIL = 16;
+
+    public BlackJackGameAutomator (int numPlayers) {
+        hands = new BlackJackHand[numPlayers];
+    }
+
 
 
 
